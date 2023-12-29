@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    background-color:deepskyblue;
+    color: deepskyblue;
+    text-align: center;
+    margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.city{
+    margin-bottom: 15px;
+}
+
+#WeatherApp{
+    font-weight: bolder;
+    text-align: left;
+    font-size: 17px;
+    margin-left: -140px;
+}
+
+#line{
+    margin-top: 12px;
+    width: 289px;
+    margin-left: -15px;
+    border: 1.3px solid rgb(235, 235, 235);
+}
+
+.container {
+    margin: auto;
+    height: 530px;
+    width: 420px;
+    /* border: 2px solid red; */
+}
+
+.subcontainer {
+    margin: auto;
+    width: 260px;
+    height: 210px;
+    margin-top: 25px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+
+.subcontainer input {
+    height: 30px;
+    width: 242px;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid rgb(235, 235, 235);
+}
+
+#or{
+    margin-top: -6px;
+    color: lightgray;
+    margin-bottom: 10px;
+}
+
+#line1, #line2{
+    margin-bottom: 3px;
+    display: inline-block;
+    width: 105px;
+    border: 1px solid lightgray;
+}
+
+
+button {
+    height: 35px;
+    width: 248px;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    color: white;
+    background-color:deepskyblue;
+    border: 2px solid deepskyblue;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#innerhtml{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 350px;
+    margin: auto;
+}
+
+#imgweather{
+    height: 150px;
+    width: 170px;
+    /* margin-bottom: 20px; */
+    margin-top: 10px;
+}
+
+.weatherinfo {
+    display: none;
+    width: 350px;
+    height: 220px;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    /* text-align: center; */
+    /* justify-content: center; */
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.temperature{
+    font-size: 40px;
+    color: rgb(0, 0, 114);
+    /* border: 2px solid red; */
+    margin-left: -64px;
+    display: inline;
+}
+
+#droplet{
+    height: 25px;
+    width: 17px;
+    margin-left: -63px;
+    margin-top: 5px;
+    /* border: 2px solid red;  */
+
+}
+
+#humiditydata{
+    margin-top: -32px;
+    margin-left: 185px;
+}
+
+#humidityheading{
+    margin-top: -13px;
+    margin-left: 218px;
+}
+
+
+.humidity
+{
+    margin-left: 121px;
+    display: inline;
+    width: 100px;
+}

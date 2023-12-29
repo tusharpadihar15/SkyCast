@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherForecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="subcontainer">
+            <form action="#">
+                <div class="city">
+                    <label for="name" id="WeatherApp">Weather App</label>
+                    <div id="line"></div>
+                    <br>
+                    <input type="text" id="input" placeholder="Enter city name">
+                </div>
+                <div id="or">
+                    <span id="line1"></span>
+                    <span id="orheading">or</span>
+                    <span id="line2"></span>
+                </div>
+                <button onclick="getlocation()">Get Device Location</button>
+                <button onclick="saveinput()">Get Weather Data</button>
+            </form>
+        </div>
+        <div class="weatherinfo">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
